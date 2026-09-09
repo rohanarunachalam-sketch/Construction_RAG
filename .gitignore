@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# API keys / secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated RAG data
+storage/
+*.pkl
+*.pickle
+
+# Answer cache
+answer_cache.json
+
+# Temporary files
+temp/
+tmp/
+uploads/
+uploaded_files/
+extracted_files/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python build files
+*.egg-info/
+dist/
+build/
